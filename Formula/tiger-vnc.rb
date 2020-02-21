@@ -12,8 +12,8 @@ class TigerVnc < Formula
   depends_on :x11
 
   patch do
-    url "https://github.com/XA21X/tigervnc/commit/dc07418.diff?full_index=1"
-    sha256 "a51fb67be062d3339fa27651f1b0b52d2f6ca931a55752a70ed0446900897afa"
+    url "https://github.com/XA21X/tigervnc/commit/3416598.diff?full_index=1"
+    sha256 "5d45c64f1f5e4c87b87354f047af40bc0d71cd952b4dae982184ad5ab54d6ef8"
   end
 
   def install
