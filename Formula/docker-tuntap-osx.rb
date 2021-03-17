@@ -8,7 +8,9 @@ class DockerTuntapOsx < Formula
   bottle :unneeded
 
   depends_on "docker-lifecycle-listener"
-  depends_on :tuntap
+
+  # NOTE: This is disabled and must be manually installed.
+  # depends_on :tuntap
 
   def install
     sbin.install "sbin/docker.hyperkit.tuntap.sh"
