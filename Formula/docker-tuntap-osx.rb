@@ -5,8 +5,6 @@ class DockerTuntapOsx < Formula
   sha256 "3cd3ff7022d855c5210893b0db041af71b5ed1f33c536c26e9064dfae1d6e631"
   license "MIT"
 
-  bottle :unneeded
-
   depends_on "docker-lifecycle-listener"
 
   # NOTE: This is disabled and must be manually installed.

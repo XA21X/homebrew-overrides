@@ -19,8 +19,6 @@ class DockerLifecycleListener < Formula
   sha256 "51a5e5d20389065e19be4011072d5032507f2a5db68d6e5a9c8c067e0093511b"
   license "AGPL-3.0-or-later"
 
-  bottle :unneeded
-
   depends_on DockerRequirement
 
   NOTIFIER_NAME = "docker-lifecycle-notifier".freeze
